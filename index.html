@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .thank-you-card {
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+        }
+
+        .icon-container {
+            width: 70px;
+            height: 70px;
+            background-color: #e6f7ed;
+            color: #2ecc71;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px auto;
+            font-size: 32px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn-redirect {
+            display: inline-block;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            font-weight: 600;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+        }
+
+        .btn-redirect:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .btn-redirect:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-card">
+        <!-- Success Checkmark Icon -->
+        <div class="icon-container">
+            ✓
+        </div>
+        
+        <h1>Thank You!</h1>
+        <p>Your submission has been received successfully. We appreciate you taking the time to connect with us.</p>
+        
+        <!-- Redirect Link / Button -->
+        <!-- REPLACE 'https://www.yourwebsite.com' WITH YOUR ACTUAL URL -->
+        <a href="https://www.yourwebsite.com" class="btn-redirect">Back to Website</a>
+    </div>
+
+</body>
+</html>
